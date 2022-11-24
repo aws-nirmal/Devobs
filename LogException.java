@@ -12,6 +12,7 @@ public class LogException {
 		try {
 			int c=a/b;
 			System.out.println(c);
+			System.out.println(c);
 			}
 		catch(Exception e){
 			log.info(e);
